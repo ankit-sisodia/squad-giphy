@@ -1,0 +1,58 @@
+.giphy-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 2px #a2b1bf;
+  border: 1px solid #a2b1bf;
+  color: cornflowerblue;
+  margin: 0 0 10px;
+  font-weight: bolder;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.img-container {
+  height: 100px;
+  width: 100px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.details-container {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  button, a {
+    height: 34px;
+    min-width: 100px;
+    background-color: #4d7bcf;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 2px #aaa;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+
+    &:hover {
+      box-shadow: 0px 2px 3px #124094;
+    }
+  }
+}
